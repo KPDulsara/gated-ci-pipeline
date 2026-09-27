@@ -8,6 +8,3 @@ def test_secret_key_loaded():
     key = get_secret_key()
     assert key is not None
     assert len(key) > 0
-
-def test_intentional_failure():
-    assert 1 == 2
